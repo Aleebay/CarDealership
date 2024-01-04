@@ -1,0 +1,139 @@
+
+        /* Embedded CSS for styling */
+        body {
+            background-color: #0F0F0F;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li {
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .inventory-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 28px;
+            color: #fff;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 20px;
+            color: #fff;
+        }
+
+        p, h1, h2, ul {
+            text-align: center;
+            color: #fff;
+        }
+
+        /* Shorten all <hr> elements */
+        hr {
+            width: 50%;
+            margin: 10px auto;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Style the footer links and social icons */
+        .footer-links ul, .social-icons ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .footer-links ul li, .social-icons ul li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        .footer-links a, .social-icons a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* Remove bullets from the left side of the list items and style the bullet points and text */
+        .centered-list {
+            list-style: none;
+            padding: 0;
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .centered-list li {
+            text-align: left;
+            margin-left: 20px;
+            padding-left: 10px;
+            position: relative;
+        }
+
+        /* Increase the size of social icons */
+        .social-icons i {
+            font-size: 30px;
+        }
+
+        /* Change bullet color to white */
+        .centered-list li::before {
+            content: "\2022"; /* Bullet point character */
+            color: white;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+   

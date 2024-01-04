@@ -1,0 +1,179 @@
+
+        /* Styling for the body and other elements here... */
+        /* Additional styling for car inventory, or you can include it in your existing style block */
+        /* Styling for the car inventory header */
+        
+        body{
+            background-color: #445069;
+        }
+        p {
+            color: white;
+        }
+        h1 {
+            color: #fff;
+            text-align: center;
+        }
+
+        h2{
+            color:#fff;
+            padding-left: 60px;
+            text-align: center;
+            
+        }
+        header {
+            background-color: black; /* Changed to black */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .inventory-header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .inventory-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .car-brands {
+            display: flex;
+            justify-content: space-between; /* Distribute brands evenly */
+            margin-top: 20px;
+            align-items: center; /* Center align car brands */
+            color: #fff;
+        }
+
+        .car-brand {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+
+        .car-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* For large screens and above, display a 4-column grid */
+@media (min-width: 1024px) {
+    .car-item {
+        flex: 0 0 calc(25% - 20px); /* Four columns */
+    }
+}
+
+/* For medium screens, display a 2-column grid */
+@media (max-width: 1023px) {
+    .car-item {
+        flex: 0 0 calc(50% - 20px); /* Two columns */
+    }
+}
+
+/* For small screens, stack items vertically (1 column) */
+@media (max-width: 768px) {
+    .car-item {
+        flex: 0 0 calc(100% - 20px); /* One column for small screens */
+        margin: 10px;
+        background-color: white;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    }
+}
+
+    
+    .car-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Create a 2x4 grid */
+    grid-gap: 20px; /* Add some gap between grid items */
+    margin-top: 20px;
+}
+
+.car-item {
+    background-color: #B2B1B9;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.car-image {
+    width: 100%;
+    max-height: 100px;
+    object-fit: cover;
+}
+
+.car-characteristics {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.car-characteristic {
+    margin-bottom: 5px;
+}
+
+        /* Styling for tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        /* Styling for table headers */
+        th {
+            background: #0078d4;
+            color: #333;
+            padding: 5px 10px;
+        }
+        /* Styling for table rows */
+        tr:nth-child(even) {
+            background: #f2f2f2;
+        }
+        /* Styling for table cells */
+        td {
+            padding: 5px 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: black; /* Changed to black */
+            color: white;
+            text-align: center;
+            padding: 0px 0;
+        }
+
+        footer nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        footer nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        form{
+            color: #fff;
+        }
+  
